@@ -1,0 +1,522 @@
+[
+  {
+    "medication": "Acyclovir IV",
+    "indication": "HSV encephalitis/ Disseminated VZV",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "5",
+    "unite": "mg/kg",
+    "route": "IV",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "HSV encephalitis/ Disseminated VZV",
+    "crcl_min": 10,
+    "crcl_max": 24,
+    "dose": "10",
+    "unite": "mg/kg",
+    "route": "IV",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "HSV encephalitis/ Disseminated VZV",
+    "crcl_min": 25,
+    "crcl_max": 49,
+    "dose": "10",
+    "unite": "mg/kg",
+    "route": "IV",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "HSV encephalitis/ Disseminated VZV",
+    "crcl_min": 50,
+    "crcl_max": 69,
+    "dose": "10",
+    "unite": "mg/kg",
+    "route": "IV",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "Non-CNS HSV Infections",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "2.5",
+    "unite": "mg/kg",
+    "route": "IV",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "Non-CNS HSV Infections",
+    "crcl_min": 10,
+    "crcl_max": 24,
+    "dose": "5",
+    "unite": "mg/kg",
+    "route": "IV",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "Non-CNS HSV Infections",
+    "crcl_min": 25,
+    "crcl_max": 49,
+    "dose": "5",
+    "unite": "mg/kg",
+    "route": "IV",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "Non-CNS HSV Infections",
+    "crcl_min": 50,
+    "crcl_max": 69,
+    "dose": "5",
+    "unite": "mg/kg",
+    "route": "IV",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "Prophylaxis for Heme-BMT patients",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "62.5",
+    "unite": "mg/m2/dose",
+    "route": "IV",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "Prophylaxis for Heme-BMT patients",
+    "crcl_min": 10,
+    "crcl_max": 24,
+    "dose": "125",
+    "unite": "mg/m2/dose",
+    "route": "IV",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "Prophylaxis for Heme-BMT patients",
+    "crcl_min": 25,
+    "crcl_max": 49,
+    "dose": "125",
+    "unite": "mg/m2/dose",
+    "route": "IV",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir IV",
+    "indication": "Prophylaxis for Heme-BMT patients",
+    "crcl_min": 50,
+    "crcl_max": 69,
+    "dose": "250",
+    "unite": "mg/m2/dose",
+    "route": "IV",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "Genital HSV Infection (recurrent episode)",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "200",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "Genital HSV Infection (recurrent episode)",
+    "crcl_min": 10,
+    "crcl_max": 54,
+    "dose": "800",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "Immuncompromised Prophylaxis",
+    "crcl_min": 5,
+    "crcl_max": 24,
+    "dose": "200",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "Immuncompromised Prophylaxis",
+    "crcl_min": 25,
+    "crcl_max": 54,
+    "dose": "400",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "Orolabial/genital HSV Infection (initial episode)",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "200",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "Orolabial/genital HSV Infection (initial episode)",
+    "crcl_min": 10,
+    "crcl_max": 54,
+    "dose": "400",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "Orolabial/genital HSV Suppression",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "200",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "Orolabial/genital HSV Suppression",
+    "crcl_min": 10,
+    "crcl_max": 54,
+    "dose": "400",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "VZV infection (mild)",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "400",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "VZV infection (mild)",
+    "crcl_min": 10,
+    "crcl_max": 24,
+    "dose": "800",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Acyclovir PO",
+    "indication": "VZV infection (mild)",
+    "crcl_min": 25,
+    "crcl_max": 54,
+    "dose": "800",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "5"
+  },
+  {
+    "medication": "Amoxicillin",
+    "indication": "Symptomatic Enterococcus UTI",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "500",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Amoxicillin",
+    "indication": "Symptomatic Enterococcus UTI",
+    "crcl_min": 10,
+    "crcl_max": 29,
+    "dose": "500",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Amoxicillin",
+    "indication": "Symptomatic Enterococcus UTI",
+    "crcl_min": 30,
+    "crcl_max": 69,
+    "dose": "500",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Amoxicillin",
+    "indication": "community-acquired pneumonia",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "500",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Amoxicillin",
+    "indication": "community-acquired pneumonia",
+    "crcl_min": 10,
+    "crcl_max": 29,
+    "dose": "1000",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Amoxicillin",
+    "indication": "community-acquired pneumonia",
+    "crcl_min": 30,
+    "crcl_max": 69,
+    "dose": "1000",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Amoxicillin",
+    "indication": "other severe infections",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "500",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Amoxicillin",
+    "indication": "other severe infections",
+    "crcl_min": 10,
+    "crcl_max": 29,
+    "dose": "1000",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Amoxicillin",
+    "indication": "other severe infections",
+    "crcl_min": 30,
+    "crcl_max": 69,
+    "dose": "1000",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Amoxicillin/clavulanate",
+    "indication": "Gram-Negative Bloodstream Infection",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "875/125",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Amoxicillin/clavulanate",
+    "indication": "Gram-Negative Bloodstream Infection",
+    "crcl_min": 10,
+    "crcl_max": 29,
+    "dose": "875/125",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Amoxicillin/clavulanate",
+    "indication": "Gram-Negative Bloodstream Infection",
+    "crcl_min": 30,
+    "crcl_max": 69,
+    "dose": "875/125",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Amoxicillin/clavulanate",
+    "indication": "Most Indications",
+    "crcl_min": 5,
+    "crcl_max": 9,
+    "dose": "500/125",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Amoxicillin/clavulanate",
+    "indication": "Most Indications",
+    "crcl_min": 10,
+    "crcl_max": 29,
+    "dose": "500/125",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Amoxicillin/clavulanate",
+    "indication": "Most Indications",
+    "crcl_min": 30,
+    "crcl_max": 69,
+    "dose": "875/125",
+    "unite": "mg",
+    "route": "PO",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Ampicillin/sulbactam (Unasyn)",
+    "indication": "Carbapenem-resistant Acinetobacter baumannii",
+    "crcl_min": 5,
+    "crcl_max": 59,
+    "dose": "Contact ID/ASP Pharmacy for guidance",
+    "unite": "na",
+    "route": "IV",
+    "freq_day": "na"
+  },
+  {
+    "medication": "Ampicillin/sulbactam (Unasyn)",
+    "indication": "Carbapenem-resistant Acinetobacter baumannii",
+    "crcl_min": 60,
+    "crcl_max": 69,
+    "dose": "9000",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Ampicillin/sulbactam (Unasyn)",
+    "indication": "Standard dosing",
+    "crcl_min": 5,
+    "crcl_max": 14,
+    "dose": "3000",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Ampicillin/sulbactam (Unasyn)",
+    "indication": "Standard dosing",
+    "crcl_min": 15,
+    "crcl_max": 29,
+    "dose": "3000",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Ampicillin/sulbactam (Unasyn)",
+    "indication": "Standard dosing",
+    "crcl_min": 30,
+    "crcl_max": 69,
+    "dose": "3000",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "4"
+  },
+  {
+    "medication": "Aztreonam",
+    "indication": "All indications",
+    "crcl_min": 10,
+    "crcl_max": 49,
+    "dose": "2000",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Aztreonam",
+    "indication": "All indications",
+    "crcl_min": 50,
+    "crcl_max": 69,
+    "dose": "2000",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Aztreonam/avibactam",
+    "indication": "Loading Dose*",
+    "crcl_min": 5,
+    "crcl_max": 14,
+    "dose": "1330",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Aztreonam/avibactam",
+    "indication": "Loading Dose*",
+    "crcl_min": 15,
+    "crcl_max": 29,
+    "dose": "1800",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Aztreonam/avibactam",
+    "indication": "Loading Dose*",
+    "crcl_min": 30,
+    "crcl_max": 69,
+    "dose": "2670",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "1"
+  },
+  {
+    "medication": "Aztreonam/avibactam",
+    "indication": "Maintenance Dose: All Indications",
+    "crcl_min": 5,
+    "crcl_max": 14,
+    "dose": "900",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "2"
+  },
+  {
+    "medication": "Aztreonam/avibactam",
+    "indication": "Maintenance Dose: All Indications",
+    "crcl_min": 15,
+    "crcl_max": 29,
+    "dose": "900",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "3"
+  },
+  {
+    "medication": "Aztreonam/avibactam",
+    "indication": "Maintenance Dose: All Indications",
+    "crcl_min": 30,
+    "crcl_max": 49,
+    "dose": "1000",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "4"
+  },
+  {
+    "medication": "Aztreonam/avibactam",
+    "indication": "Maintenance Dose: All Indications",
+    "crcl_min": 50,
+    "crcl_max": 69,
+    "dose": "2000",
+    "unite": "mg",
+    "route": "IV",
+    "freq_day": "4"
+  }
+]
