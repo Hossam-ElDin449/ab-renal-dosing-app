@@ -43,8 +43,9 @@ function calculateCrCl() {
   let crcl = ((140 - age) * weight) / (72 * scr);
   if (sex === 'female') crcl *= 0.85;
 
-  calculatedCrCl = crcl;
-  resultBox.innerHTML = `Calculated CrCl: <span style="color:#2563eb">${crcl.toFixed(1)} mL/min</span>`;
+  // Round to whole number so displayed value and lookup value always match
+  calculatedCrCl = Math.round(crcl);
+  resultBox.innerHTML = `Calculated CrCl: <span style="color:#2563eb">${calculatedCrCl} mL/min</span>`;
 }
 
 function getDose() {
