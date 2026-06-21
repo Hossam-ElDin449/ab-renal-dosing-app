@@ -26,26 +26,68 @@ document.getElementById('medication').addEventListener('input', function () {
 });
 
 function calculateCrCl() {
-  const scr = parseFloat(document.getElementById('scr').value);
+  const scrNow = parseFloat(document.getElementById('scr').value);
+  const scrBeforeRaw = document.getElementById('scrBefore').value;
+  const scrBefore = scrBeforeRaw ? parseFloat(scrBeforeRaw) : null;
   const age = parseFloat(document.getElementById('age').value);
   const weight = parseFloat(document.getElementById('weight').value);
+  const heightCm = parseFloat(document.getElementById('height').value);
   const sex = document.getElementById('sex').value;
 
   const resultBox = document.getElementById('crclResult');
 
-  if (!scr || !age || !weight) {
-    resultBox.innerHTML = '<span class="error">Please fill Scr, age, and weight.</span>';
+  if (!scrNow || !age || !weight || !heightCm) {
+    resultBox.innerHTML = '<span class="error">Please fill Scr, age, weight, and height.</span>';
     calculatedCrCl = null;
     return;
   }
 
-  // Cockcroft-Gault equation
-  let crcl = ((140 - age) * weight) / (72 * scr);
+  // Step 1: choose which SCr to use (detect AKI if a 48h-ago value was given)
+  let scrUsed = scrNow;
+  let scrNote = '';
+  if (scrBefore !== null && !isNaN(scrBefore)) {
+    const rise = scrNow - scrBefore;
+    if (rise > 0.3) {
+      if (scrNow > scrBefore) {
+        scrUsed = scrNow;
+        scrNote = 'AKI detected (rise >0.3 mg/dL) — using current SCr';
+      } else {
+        scrUsed = (scrNow + scrBefore) / 2;
+        scrNote = 'AKI detected (rise >0.3 mg/dL) — using average SCr';
+      }
+    }
+  }
+
+  // Step 2: choose which weight to use (BMI-based)
+  const heightInches = heightCm / 2.54;
+  const heightM = heightCm / 100;
+  const bmi = weight / (heightM * heightM);
+
+  // Devine formula for Ideal Body Weight; only valid for height > 60 inches (5 ft)
+  let ibw = weight;
+  if (heightInches > 60) {
+    ibw = sex === 'female'
+      ? 45.5 + 2.3 * (heightInches - 60)
+      : 50 + 2.3 * (heightInches - 60);
+  }
+
+  let weightUsed = weight;
+  let weightNote = `Actual body weight (BMI ${bmi.toFixed(1)})`;
+  if (bmi >= 30) {
+    weightUsed = ibw + 0.4 * (weight - ibw);
+    weightNote = `Adjusted body weight (BMI ${bmi.toFixed(1)})`;
+  }
+
+  // Step 3: Cockcroft-Gault with chosen SCr and weight
+  let crcl = ((140 - age) * weightUsed) / (72 * scrUsed);
   if (sex === 'female') crcl *= 0.85;
 
-  // Round to whole number so displayed value and lookup value always match
   calculatedCrCl = Math.round(crcl);
-  resultBox.innerHTML = `Calculated CrCl: <span style="color:#2563eb">${calculatedCrCl} mL/min</span>`;
+
+  resultBox.innerHTML = `
+    Calculated CrCl: <span style="color:#2563eb">${calculatedCrCl} mL/min</span>
+    <br><small>${scrNote ? scrNote + ' &middot; ' : ''}${weightNote}</small>
+  `;
 }
 
 function getDose() {
